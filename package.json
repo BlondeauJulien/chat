@@ -6,6 +6,7 @@
   "dependencies": {
     "apollo-reporting-protobuf": "^0.6.2",
     "apollo-server": "^2.21.2",
+    "bcryptjs": "^2.4.3",
     "call-bind": "^1.0.2",
     "depd": "^1.1.2",
     "deprecated-decorator": "^0.1.6",
