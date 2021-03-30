@@ -1,11 +1,16 @@
+import { Container } from 'react-bootstrap';
+
+import Register from './pages/Register';
+
 import './App.scss';
 
 function App() {
-  return (
-    <div >
-      <h1>Hello</h1>
-    </div>
-  );
+
+	return (
+		<Container className="pt-5">
+      <Register />
+		</Container>
+	);
 }
 
 export default App;
