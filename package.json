@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
+    "@apollo/client": "^3.3.13",
     "apollo-reporting-protobuf": "^0.6.2",
     "apollo-server": "^2.21.2",
     "bcryptjs": "^2.4.3",
