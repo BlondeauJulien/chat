@@ -84,9 +84,9 @@ module.exports = {
 
       try {
         if(email.trim() === '') errors.email = 'Email must not be empty';
-        if(username.trim() === '') errors.username = 'Email must not be empty';
-        if(password.trim() === '') errors.password = 'Email must not be empty';
-        if(confirmPassword.trim() === '') errors.confirmPassword = 'Email must not be empty';
+        if(username.trim() === '') errors.username = 'Username must not be empty';
+        if(password.trim() === '') errors.password = 'Password must not be empty';
+        if(confirmPassword.trim() === '') errors.confirmPassword = 'Repeat password must not be empty';
         if(confirmPassword !== password) errors.confirmPassword = 'Your password doesn\'t match the confirmation';
 
 /*         const userByUsername = await User.findOne({ where: { username }});
